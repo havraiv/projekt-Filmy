@@ -6,7 +6,7 @@ console.log('JavaScript ve stránce funguje');
 let movieArray;
 const showMovies = (data) => {
   data.forEach((film) => {
-    return Movie({ film });
+    return Movie(film);
   });
 };
 
